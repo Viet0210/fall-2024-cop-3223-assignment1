@@ -81,7 +81,7 @@ void calculateHeight() {
     double x2 = askForUserInput("Enter the x2 value: ");
     double y2 = askForUserInput("Enter the y2 value: ");
     
-    double height = findD(x1, y1, x2, y2) / 2;
+    double height = findD(x1, y1, x2, y2);
     
     printf("Point #1 entered: x1 = %.2f; y1 = %.2f\n", x1, y1);
     printf("Point #2 entered: x2 = %.2f; y2 = %.2f\n", x2, y2);
